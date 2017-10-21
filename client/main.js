@@ -22,6 +22,8 @@ class App extends Component {
     render(){
         return (
             <div>
+                <h2 className="text-center page-header">Image Bucket</h2>
+                <h4 className="text-center">Viral</h4>
                 <ImageList images={ this.state.images }/>
             </div>
         )
